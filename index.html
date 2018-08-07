@@ -5,9 +5,13 @@
   <button class="button">Click Me!!!</button>
 
   <script>
-    var button = document.getElementByClass="button";
+    var button = document.getElementsByClassName("button");
 
-    button.onClick(alert("We should drink rose"));
+    button[0].onclick = handleClick;
+
+    function handleClick () {
+      alert("We should drink rose");
+    }
 
 
   </script>
