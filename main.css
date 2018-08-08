@@ -1,0 +1,51 @@
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: #8900FF;
+}
+
+.button {
+  border: 1px solid #003FFF;
+  border-radius: 5px;
+}
+
+.instruction {
+  border: 1px solid #003FFF;
+  border-radius: 5px;
+  display: block;
+  margin-top:20px;
+}
+
+#surprise {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  color: #2615E8;
+}
+
+#clear {
+  margin-top: 20px;
+  display: inline-block;
+  border: 1px solid #0DFFA9;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
