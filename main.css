@@ -1,0 +1,10 @@
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: #8900FF;
+}
+
+.button {
+  border: 1px solid #003FFF;
+  border-radius: 5px;
+}
