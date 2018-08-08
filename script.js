@@ -14,3 +14,8 @@ function showDiv () {
   document.getElementById('surprise').style.display = "inline";
   document.getElementById('clear').style.display = "inline";
 }
+
+function removeDiv () {
+  document.getElementById('surprise').style.display = 'none';
+  document.getElementById('clear').style.display = 'none';
+}
