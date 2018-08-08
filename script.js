@@ -8,3 +8,7 @@ button[0].onclick = handleClick;
 function handleClick () {
   alert("We should drink rose");
 };
+
+function showDiv () {
+  document.getElementById('surprise').style.display = "block";
+}
