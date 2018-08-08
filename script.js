@@ -9,6 +9,8 @@ function handleClick () {
   alert("We should drink rose");
 };
 
+//Function that gets the divs id and changes the style of it to display
 function showDiv () {
-  document.getElementById('surprise').style.display = "block";
+  document.getElementById('surprise').style.display = "inline";
+  document.getElementById('clear').style.display = "inline";
 }
