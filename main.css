@@ -1,7 +1,7 @@
 .headerText {
   font-family: Arial, sans-serif;
   font-size: 30px;
-  color: #8900FF;
+  color: #E87E0C;
   text-align: center;
   margin: 0 auto;
   padding-top: 7px;
@@ -12,14 +12,18 @@ body {
 }
 
 #bannerHeader {
-  background-color: #00FFA8;
+  background-color: #14233c;
   height: 50px;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
 }
 
 .button {
   border: 1px solid #003FFF;
   border-radius: 5px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .instruction {
