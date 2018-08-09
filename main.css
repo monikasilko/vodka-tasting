@@ -1,12 +1,25 @@
-h1 {
+.headerText {
   font-family: Arial, sans-serif;
   font-size: 30px;
   color: #8900FF;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+body {
+  margin: 5px;
+}
+
+#bannerHeader {
+  background-color: #00FFFE;
+  height: 50px;
 }
 
 .button {
   border: 1px solid #003FFF;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .instruction {
