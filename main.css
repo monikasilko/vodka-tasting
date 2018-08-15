@@ -49,3 +49,14 @@ div.box {
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
 }
+
+.contentCard {
+  border: 1px solid #808080;
+  width: 25%;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+h2.cardTitle {
+  text-align: center;
+}
