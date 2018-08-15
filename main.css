@@ -51,12 +51,21 @@ div.box {
 }
 
 .contentCard {
-  border: 1px solid #808080;
-  width: 25%;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px 5px #808080;
+  width: 20%;
   margin-top: 20px;
   margin: 0 auto;
+  height: 30%;
+  background: linear-gradient(red, yellow);
 }
 
 h2.cardTitle {
   text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+p.cardInfo {
+  font-family: Arial, sans-serif;
+  padding-left: 10px;
 }
