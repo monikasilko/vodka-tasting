@@ -50,7 +50,11 @@ div.box {
     100% {background-color:red; left:0px; top:0px;}
 }
 
-.contentCard {
+#snapshots {
+  text-align: center;
+}
+
+.contentCard1 {
   border-radius: 3px;
   box-shadow: 5px 5px 5px 5px #808080;
   width: 20%;
@@ -58,6 +62,35 @@ div.box {
   margin: 0 auto;
   height: 30%;
   background: linear-gradient(red, yellow);
+  display: inline-block;
+  margin-right:50px;
+  text-align: left;
+}
+
+.contentCard2 {
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px 5px #808080;
+  width: 20%;
+  margin-top: 20px;
+  margin: 0 auto;
+  height: 30%;
+  background: linear-gradient(#00FC00, #FFFC00);
+  display: inline-block;
+  margin-right:50px;
+  text-align: left;
+}
+
+.contentCard3 {
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px 5px #808080;
+  width: 20%;
+  margin-top: 20px;
+  margin: 0 auto;
+  height: 30%;
+  background: linear-gradient(#000CE8, #FF0CE8);
+  display: inline-block;
+  margin-right:50px;
+  text-align: left;
 }
 
 h2.cardTitle {
