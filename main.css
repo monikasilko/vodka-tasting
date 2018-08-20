@@ -4,6 +4,26 @@ h1 {
   color: #8900FF;
 }
 
+#disclaimer {
+  border: 1px solid pink;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+#disclaimer p {
+  font-family: Arial, sans-serif;
+}
+
+#disclaimer h2 {
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+  color: #2102FF;
+}
+
+#disclaimer ul {
+  font-family: Arial, sans-serif;
+}
+
 .button {
   border: 1px solid #003FFF;
   border-radius: 5px;
