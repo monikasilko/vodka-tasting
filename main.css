@@ -50,6 +50,13 @@ h1 {
   margin-left: 10px;
 }
 
+#message {
+  margin-top: 20px;
+  display: inline-block;
+  border: 1px solid #5B0178;
+  border-radius: 5px;
+}
+
 div.box {
     width: 100px;
     height: 100px;
