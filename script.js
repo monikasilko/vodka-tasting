@@ -15,18 +15,19 @@ function showDiv () {
   document.getElementById('clear').style.display = "inline";
 }
 
+//Function that removes the div attached to a button that runs when clicked
 function removeDiv () {
   document.getElementById('surprise').style.display = 'none';
   document.getElementById('clear').style.display = 'none';
 }
 
-
+//Function that displays a div and shows an item from an array thats selected at random. 
 function displayMessage() {
   document.getElementById('messageBox').style.display = "inline";
   var sayings = ["I forgot my chicken!", "I'll make you regret", "Lets drink some work documents", "Its not my problem!"];
 
   var randomQuote = sayings[Math.floor(Math.random()*sayings.length)];
 
-  var random = document.body.innerHTML = randomQuote;
+  var random = document.getElementById('selectedQuote').innerHTML = randomQuote;
 
 }
