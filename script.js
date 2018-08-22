@@ -19,3 +19,14 @@ function removeDiv () {
   document.getElementById('surprise').style.display = 'none';
   document.getElementById('clear').style.display = 'none';
 }
+
+
+function displayMessage() {
+  document.getElementById('messageBox').style.display = "inline";
+  var sayings = ["I forgot my chicken!", "I'll make you regret", "Lets drink some work documents", "Its not my problem!"];
+
+  var randomQuote = sayings[Math.floor(Math.random()*sayings.length)];
+
+  var random = document.body.innerHTML = randomQuote;
+
+}
